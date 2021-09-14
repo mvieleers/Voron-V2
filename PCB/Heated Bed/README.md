@@ -12,6 +12,7 @@ The mount can be mounted between the bed frame on top of the bottom frame extrus
 That being said, the PCB was designed with the following specs:
 - Mains traces are 3.560mm wide. That is sufficiant for a max thermal increase of 10 degrees at an ambiant temperature of 70 degrees Celcius at 10A current.
 - Other traces are 0.763mm wide.
+- There is a Mains Ground copper pour on both sides of the PCB for safety.
 
 The PCB has connections for:
 - Mains from the electronics compartment
