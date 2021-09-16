@@ -13,7 +13,7 @@ That being said, the PCB was designed with the following specs:
 - Mains traces are 3.560mm wide. That is sufficiant for a max thermal increase of 10 degrees at an ambiant temperature of 70 degrees Celcius at 3A current. **Please make sure your current does not exceed 3A (I would actually advise to keep some safety margin and not exceed 2.7A. To obtain Amps you need both Watts and Volts: The formula is (W)/(V) =(A). For example, if you have a power of 600W running at 220V, the current is 600W / 220V = 2.7A. If you are using a more powerfull heater or if you're using 110V you need to make sure that you reduce the power of your heater. This can be done in the Klipper config in the [heater_bed] section. It is advised to reduce the power anyway to not warp your bed by heating it to quickly by applying to much power. On 110 Volts with a maximum of 2.7A that would mean a max power of 297W, that's not a lot so this Mod might not be the most useful for those of you on 110V.**
 ```
 [heater_bed]
-max_power: 0.6
+max_power: 1.0 #reduce to lower the power consumption of your heater. Example: when set to 0.5 and you have a heater of 600W, you will be pulling 300W.
 ```
 - Other traces are 0.763mm wide.
 - There is a Mains Ground copper pour on both sides of the PCB for safety.
