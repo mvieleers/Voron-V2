@@ -30,6 +30,7 @@ The PCB has connections for:
 Part|QTY
 |:---:|:---:|
 M3x6 SHCS or BHCS|3
+M3 Nylon Washer|3
 M3x5x4 heatset insert (standard Voron)|3
 M5x10 BHCS|2
 M5 T-nut or roll-in|2
